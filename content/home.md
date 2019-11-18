@@ -4,6 +4,6 @@ sortable_list:
 - test2
 - test3
 - test
-image: "/uploads/Mick.jpg"
+image: ''
 
 ---
