@@ -1,5 +1,5 @@
 ---
-hero: test3
+hero: test2
 sortable_list:
 - test2
 - test3
