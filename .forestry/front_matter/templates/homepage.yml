@@ -7,5 +7,12 @@ fields:
   config:
     required: false
   label: Hero
+- name: sortable_list
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: sortable list
 pages:
 - content/home.md
