@@ -1,6 +1,4 @@
-# Quibi-website
-
-> Public facing, front-end based, web experience geared towards the audience of Quibi video streaming service.
+# test-website
 
 ## Architecture
 
@@ -9,22 +7,6 @@
 - Redux
 - PostCSS
 - CSS Modules
-
-## Environments
-
-| branch    | url  | build status                                                                                                                                               |
-| --------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `dev`     | []() | [![pipeline status](https://gitlab.b-reel.com/quibi/website-3.0/badges/dev/pipeline.svg)](https://gitlab.b-reel.com/quibi/website-3.0/commits/dev)         |
-| `staging` | []() | [![pipeline status](https://gitlab.b-reel.com/quibi/website-3.0/badges/staging/pipeline.svg)](https://gitlab.b-reel.com/quibi/website-3.0/commits/staging) |
-| `qa`      | []() | [![pipeline status](https://gitlab.b-reel.com/quibi/website-3.0/badges/qa/pipeline.svg)](https://gitlab.b-reel.com/quibi/website-3.0/commits/qa)           |
-| `prod`    | []() | [![pipeline status](https://gitlab.b-reel.com/quibi/website-3.0/badges/master/pipeline.svg)](https://gitlab.b-reel.com/quibi/website-3.0/commits/master)   |
-
-### Credentials
-
-For all environments:
-
-- User: `TBD`
-- Pass: `TBD`
 
 ## Requirements
 
