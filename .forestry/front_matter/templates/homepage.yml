@@ -14,5 +14,10 @@ fields:
     min: 
     max: 
   label: sortable list
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
 pages:
 - content/home.md
