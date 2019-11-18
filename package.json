@@ -1,15 +1,13 @@
 {
-  "name": "netlify-cms-webpack-postcss",
+  "name": "quibi-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Public facing, front-end based, web experience geared towards the audience of Quibi video streaming service.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "netlify-lambda install",
     "dev": "next src",
-    "build": "run-p build:**",
-    "build:app": "next build src",
-    "build:lambda": "netlify-lambda build src/lambda",
+    "build": "next build src",
     "start": "next start src",
+    "precommit": "npm run lint",
     "export": "npm run build && next export src -o out",
     "lint": "run-p lint:js lint:css",
     "lint:css": "stylelint ./src/style/*.css ./src/components/**/*.css",
@@ -21,10 +19,10 @@
     "type": "git"
   },
   "contributors": [
-    "Mick Coelho <mick.coelho@gmail.com>"
+    "Mick Coelho <mick.coelho@b-reel.com>",
+    "Eric Heaton <eric.heaton@b-reel.com>"
   ],
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "@rematch/core": "1.1.0",
@@ -36,7 +34,6 @@
     "g": "^2.0.1",
     "install": "^0.13.0",
     "lodash.filter": "4.6.0",
-    "netlify-lambda": "^1.6.3",
     "next": "^8.1.0",
     "npm": "^6.11.3",
     "postcss-advanced-variables": "3.0.0",

@@ -12,22 +12,10 @@ module.exports = withCSS({
   },
 
   webpack: (config) => {
-    // Unshift polyfills in main entrypoint.
-    // const originalEntry = config.entry;
-    // config.entry = async () => {
-    //   const entries = await originalEntry();
-    //   if (entries['main.js']) {
-    //     entries['main.js'].unshift('./utils/polyfills.js');
-    //   }
-    //   return entries;
-    // };
-
-    config.module.rules.push(
-      {
-        test: /\.md$/,
-        use: 'frontmatter-markdown-loader',
-      }
-    );
+    config.module.rules.push({
+      test: /\.md$/,
+      use: 'frontmatter-markdown-loader',
+    });
 
     return config;
   },
