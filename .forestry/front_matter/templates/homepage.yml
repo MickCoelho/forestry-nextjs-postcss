@@ -25,5 +25,13 @@ fields:
   config: {}
   template: about
   label: Test template
+- name: block
+  type: blocks
+  label: Block
+  template_types:
+  - about
+  config:
+    min: 
+    max: 
 pages:
 - content/home.md
