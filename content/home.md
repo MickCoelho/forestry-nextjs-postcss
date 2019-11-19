@@ -7,7 +7,13 @@ sortable_list:
 image: ''
 prop_title: fdsf
 prop_text: fsdfdsfsd
-block: []
+block:
+- template: about
+  prop_title: about1
+  prop_text: about1
+- template: about
+  prop_title: about2
+  prop_text: about2
 field_:
   title: dsad
   text: sadsadas
