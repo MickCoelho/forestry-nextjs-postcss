@@ -5,5 +5,7 @@ sortable_list:
 - test3
 - test
 image: ''
+prop_title: fdsf
+prop_text: fsdfdsfsd
 
 ---
