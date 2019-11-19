@@ -54,6 +54,21 @@ fields:
   label: 'field '
 - name: repeatable_field_group
   type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: text
   config:
     min: 
     max: 
