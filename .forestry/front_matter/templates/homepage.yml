@@ -43,5 +43,5 @@ fields:
     labelField: 
   label: repeatable field group
 pages:
-- content/test.md
 - content/home.md
+- content/test.md

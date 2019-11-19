@@ -1,9 +1,6 @@
 ---
 hero: world
-sortable_list:
-- test2
-- test3
-- test
+sortable_list: []
 image: ''
 prop_title: fdsf
 prop_text: fsdfdsfsd
