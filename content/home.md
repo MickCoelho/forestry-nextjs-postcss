@@ -1,5 +1,5 @@
 ---
-hero: world
+hero: git
 sortable_list: []
 image: ''
 prop_title: fdsf
