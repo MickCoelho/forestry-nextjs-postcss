@@ -18,6 +18,8 @@ field_:
   title: dsad
   text: sadsadas
 repeatable_field_group:
+- title: fdafas
+  text: asdasda
 - title: dsad
   text: sadasd
 - title: dsadsa
