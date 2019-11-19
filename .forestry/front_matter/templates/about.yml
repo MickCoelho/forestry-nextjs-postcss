@@ -1,4 +1,18 @@
 ---
 label: About
 hide_body: false
-fields: []
+fields:
+- name: prop_title
+  type: text
+  config:
+    required: false
+  label: Prop title
+- name: prop_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Prop text
