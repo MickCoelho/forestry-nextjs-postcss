@@ -5,10 +5,6 @@ sortable_list:
 - list1
 image: ''
 repeatable_field_group:
-- title: Prop 3
-  text: 'Prop 3
-
-'
 - title: Prop 2
   text: Prop 2
 - title: Prop 1
