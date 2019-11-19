@@ -20,4 +20,5 @@ fields:
     maxSize: 250
   label: image
 pages:
+- content/home2.md
 - content/home.md
