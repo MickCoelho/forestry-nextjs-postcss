@@ -20,38 +20,6 @@ fields:
   config:
     maxSize: 250
   label: image
-- name: test_template
-  type: include
-  config: {}
-  template: about
-  label: Test template
-- name: block
-  type: blocks
-  label: Block
-  template_types:
-  - about
-  config:
-    min: 
-    max: 
-- name: field_
-  type: field_group
-  config: {}
-  fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Title
-  - name: text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: text
-  label: 'field '
 - name: repeatable_field_group
   type: field_group_list
   fields:
