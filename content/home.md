@@ -11,6 +11,10 @@ block: []
 field_:
   title: dsad
   text: sadsadas
-repeatable_field_group: []
+repeatable_field_group:
+- title: dsad
+  text: sadasd
+- title: dsadsa
+  text: dasdas
 
 ---
